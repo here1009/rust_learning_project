@@ -1,0 +1,10 @@
+parser:
+1. key = value
+   :toml
+   :constraint [type, range or candidates,  default,]
+   https://rust-lang-nursery.github.io/rust-cookbook/encoding/complex.html
+   https://zhuanlan.zhihu.com/p/76283535?utm_source=wechat_session
+2. job = jobname
+   : job.check_input
+   : job.check_output
+   ! job.test
